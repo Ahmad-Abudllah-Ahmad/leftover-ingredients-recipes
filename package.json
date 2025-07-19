@@ -6,7 +6,7 @@
   "scripts": {
     "start": "python -m http.server 8000",
     "dev": "python -m http.server 8000",
-    "build": "echo 'No build step required for static site'",
+    "build": "mkdir -p public && cp *.html *.css *.js public/ && echo 'Static files copied to public directory'",
     "deploy": "echo 'Ready for deployment'"
   },
   "keywords": [
