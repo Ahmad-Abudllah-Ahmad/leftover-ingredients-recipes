@@ -6,7 +6,7 @@
   "scripts": {
     "start": "python -m http.server 8000",
     "dev": "python -m http.server 8000",
-    "build": "mkdir -p public && cp *.html *.css *.js public/ && echo 'Static files copied to public directory'",
+    "build": "node build.js",
     "deploy": "echo 'Ready for deployment'"
   },
   "keywords": [

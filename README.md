@@ -89,13 +89,33 @@ Feel free to contribute to this project by:
 - Improving the UI/UX
 - Adding more recipe templates
 
-## License
+## 🚀 Live Demo
 
-This project is licensed under the MIT License.
+**🌐 [Visit LeftoverChef Live](https://leftoverchef-ai-recipes.windsurf.build)**
+
+## ☁️ Deploy to Vercel/Netlify
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAhmad-Abudllah-Ahmad%2Fleftover-ingredients-recipes)
+
+### 🔐 Environment Variables for Deployment
+
+After deploying, add these environment variables in your Vercel/Netlify dashboard:
+
+```
+GEMINI_API_KEY=your_actual_gemini_api_key_here
+UNSPLASH_ACCESS_KEY=your_actual_unsplash_access_key_here
+UNSPLASH_SECRET_KEY=your_actual_unsplash_secret_key_here
+```
+
+**⚠️ Important:** Without these environment variables, recipes and images won't work on the deployed site!
 
 ## Contact
 
 For questions or support, please reach out to the development team.
+
+## License
+
+This project is licensed under the MIT License.
 
 ---
 
