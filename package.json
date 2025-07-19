@@ -1,0 +1,26 @@
+{
+  "name": "leftover-chef",
+  "version": "1.0.0",
+  "description": "Smart leftover food recipe recommendation website",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "recipes",
+    "leftovers",
+    "food",
+    "ai",
+    "recommendations"
+  ],
+  "author": "LeftoverChef Team",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
